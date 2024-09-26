@@ -130,6 +130,16 @@ h4 {
 /* 03. Centrer verticalement */
 
 .card {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
