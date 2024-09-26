@@ -98,6 +98,19 @@ h4 {
 /* 02. Centrer horizontalement */
 
 .calltoaction {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin: auto;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.calltoaction {
   margin-bottom: 15px;
   padding: 15px 30px;
   background: #fdf0d5;
